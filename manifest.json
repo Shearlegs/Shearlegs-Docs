@@ -1,0 +1,996 @@
+{
+  "homepages": [],
+  "source_base_path": "/github/workspace/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.AssemblyLoading.IAssemblyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.AssemblyLoading.IAssemblyContext.html",
+          "hash": "ZMmSkFJF3ABPLdDIJFZk5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.AssemblyLoading.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.AssemblyLoading.html",
+          "hash": "3+VfCQEXAqP3QMx4LNYXRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Constants.DirectoryConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Constants.DirectoryConstants.html",
+          "hash": "Vz9GleNQ03PMlGxs+G8sDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Constants.html",
+          "hash": "htaty42nQSSu36ZAFmEXqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Exceptions.ContentFileNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Exceptions.ContentFileNotFoundException.html",
+          "hash": "+NVWfU8X+CSZzUTlFfLvog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Exceptions.MultipleParametersTypeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Exceptions.MultipleParametersTypeException.html",
+          "hash": "dBmnGDtJTa/E0KSFvqJe0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Exceptions.ParameterTypeNotSupportedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Exceptions.ParameterTypeNotSupportedException.html",
+          "hash": "KPZ1em+kp/aKy6tv5Pt8qQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Exceptions.html",
+          "hash": "ijOha2aeHDANWU6JxH/zlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Plugins.Attributes.ParameterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Plugins.Attributes.ParameterAttribute.html",
+          "hash": "rvr/rdwFBui8XN0p9Hm2cw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Plugins.Attributes.SecretAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Plugins.Attributes.SecretAttribute.html",
+          "hash": "XG9kcwY+BtxbuBrKNAVUxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Plugins.Attributes.ServiceAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Plugins.Attributes.ServiceAttribute.html",
+          "hash": "Ao+SyZcy48ugojoD9hxLMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Plugins.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Plugins.Attributes.html",
+          "hash": "4X9bYsgzYZJuQiHVpMR9bA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Plugins.Content.IContentFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Plugins.Content.IContentFile.html",
+          "hash": "1AyLEfv/iXX/Z2N19RLXRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Plugins.Content.IContentFileStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Plugins.Content.IContentFileStore.html",
+          "hash": "LLUNdNcKDDxx3C/W2ySOuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Plugins.Content.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Plugins.Content.html",
+          "hash": "EL2Ztr1D/ZuHuGn1I4hqRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Plugins.IParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Plugins.IParameters.html",
+          "hash": "3D4Qq9lrFVOXV3QlLjGoig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Plugins.IPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Plugins.IPlugin.html",
+          "hash": "TRGsZlcSApUz7ieyZv2YYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Plugins.IPluginBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Plugins.IPluginBase.html",
+          "hash": "Lw6HbD9EXT6cHsuJkGSzgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Plugins.IPluginManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Plugins.IPluginManager.html",
+          "hash": "YtHaFNSCgozRy/jCdFMbzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Plugins.Info.IContentFileInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Plugins.Info.IContentFileInfo.html",
+          "hash": "QNwEt21oQnOZir8I8iy13g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Plugins.Info.IPluginInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Plugins.Info.IPluginInfo.html",
+          "hash": "bDF80DRd1CvTp2d+d0NM/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Plugins.Info.IPluginParameterInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Plugins.Info.IPluginParameterInfo.html",
+          "hash": "ZQRXr3mu+REWSnLLFHM7gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Plugins.Info.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Plugins.Info.html",
+          "hash": "b7Hkk/Z2buDXjSRbcM8Ymg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Plugins.Loaders.IPluginAssembly.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Plugins.Loaders.IPluginAssembly.html",
+          "hash": "R2lKaHSWHn1wf9i0/FpLhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Plugins.Loaders.IPluginLoadResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Plugins.Loaders.IPluginLoadResult.html",
+          "hash": "gnlfnpX7ck90e3W/Icfvog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Plugins.Loaders.IPluginLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Plugins.Loaders.IPluginLoader.html",
+          "hash": "8ogUfYTbT/aGfhIoFjCoeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Plugins.Loaders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Plugins.Loaders.html",
+          "hash": "/LZDzh7/iGwLuCJ15q2qBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Plugins.Parameters.FileParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Plugins.Parameters.FileParameter.html",
+          "hash": "fou+eY+u48fkdtBKccb85A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Plugins.Parameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Plugins.Parameters.html",
+          "hash": "ZTl2e9Y6aP5AOV+rGaoEHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Plugins.Result.IPluginResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Plugins.Result.IPluginResult.html",
+          "hash": "NI91JN8e9MtpmatEf2lAlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Plugins.Result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Plugins.Result.html",
+          "hash": "FU+oQ2byR0P9wClQKjyXIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.API.Plugins.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.API.Plugins.html",
+          "hash": "R3QSHy8cnhZmwIve0XPFVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Core.AssemblyLoading.AssemblyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Core.AssemblyLoading.AssemblyContext.html",
+          "hash": "XC+NmpWOBr8DKpU6VsFkKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Core.AssemblyLoading.HostAssemblyLoadContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Core.AssemblyLoading.HostAssemblyLoadContext.html",
+          "hash": "Up0KQ8ShBIU8689xrXhGzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Core.AssemblyLoading.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Core.AssemblyLoading.html",
+          "hash": "CsfR8UXRl8TKlBuQTM0Dvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Core.Plugins.Content.ContentFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Core.Plugins.Content.ContentFile.html",
+          "hash": "ZB5v/yszh3VZBnDl9nFqKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Core.Plugins.Content.ContentFileStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Core.Plugins.Content.ContentFileStore.html",
+          "hash": "ar2/6eom2nBWN1plxmneOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Core.Plugins.Content.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Core.Plugins.Content.html",
+          "hash": "aKbOEJY/dJjiqsyPlZtsCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Core.Plugins.Info.ContentFileInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Core.Plugins.Info.ContentFileInfo.html",
+          "hash": "g6y466eDA6PsQeKCdjWwAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Core.Plugins.Info.PluginInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Core.Plugins.Info.PluginInfo.html",
+          "hash": "yfFnb2b4mdLiMhPbGksubw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Core.Plugins.Info.PluginParameterInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Core.Plugins.Info.PluginParameterInfo.html",
+          "hash": "10EEftUyokmRX/z65CTnuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Core.Plugins.Info.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Core.Plugins.Info.html",
+          "hash": "rda7sI8Yg9UaRBj8n8Zj1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Core.Plugins.Loaders.PluginAssembly.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Core.Plugins.Loaders.PluginAssembly.html",
+          "hash": "+TfS00WRafCtmJ8kKgeheA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Core.Plugins.Loaders.PluginLoadResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Core.Plugins.Loaders.PluginLoadResult.html",
+          "hash": "lsCDSObbyfZiWIcETNbzuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Core.Plugins.Loaders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Core.Plugins.Loaders.html",
+          "hash": "E+81POHem8cQYF8WEfcBiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Core.Plugins.Parameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Core.Plugins.Parameters.html",
+          "hash": "XUs3kgTdabrMDN2rqGiA+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Core.Plugins.Plugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Core.Plugins.Plugin.html",
+          "hash": "T288gK/8gzT/5fzIvkoAsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Core.Plugins.PluginBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Core.Plugins.PluginBase.html",
+          "hash": "aKdKGn3JKG0vlh/nTyHPCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Core.Plugins.PluginManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Core.Plugins.PluginManager.html",
+          "hash": "knGc1FWAofg+Q90ITAPDMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Core.Plugins.Result.PluginErrorResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Core.Plugins.Result.PluginErrorResult.html",
+          "hash": "tv9OWsFHaAizPiNws1y2Sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Core.Plugins.Result.PluginFileResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Core.Plugins.Result.PluginFileResult.html",
+          "hash": "EV43KXvtkAGmSgUw2z+3HQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Core.Plugins.Result.PluginResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Core.Plugins.Result.PluginResult.html",
+          "hash": "/4RLMCDTHH+FAdYjgs/MLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Core.Plugins.Result.PluginTextResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Core.Plugins.Result.PluginTextResult.html",
+          "hash": "wSrpxPE5Xh89OFqBdQUopw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Core.Plugins.Result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Core.Plugins.Result.html",
+          "hash": "cggdEcnYC4lmIw1gQa3QaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Core.Plugins.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Core.Plugins.html",
+          "hash": "3x0K661LBzZ0Yr7whOsEdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.NuGet.NuGetAssembly.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.NuGet.NuGetAssembly.html",
+          "hash": "teHdAWm0WLPU2QhmMNYpzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.NuGet.NuGetHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.NuGet.NuGetHelper.html",
+          "hash": "Mk5IRIHanM++haa8UNsYZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.NuGet.NuGetPackageManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.NuGet.NuGetPackageManager.html",
+          "hash": "X5fD5/1RLm1SIbEoAg0DmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.NuGet.NuGetPluginLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.NuGet.NuGetPluginLoader.html",
+          "hash": "ed3Xl3EQWXfe9m0Pp/r6eg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.NuGet.PackageConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.NuGet.PackageConfiguration.html",
+          "hash": "zlgx2AUptoodIDTuBXJJdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.NuGet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.NuGet.html",
+          "hash": "MozTPxZxWz6LUJRjNL4emg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Runtime.ShearlegsRuntime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Runtime.ShearlegsRuntime.html",
+          "hash": "8BO1QOWPC344f1EhqmIQyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Runtime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Runtime.html",
+          "hash": "hdeUF3OF0A40OLq5EHWvrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Testing.ShearlegsTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Testing.ShearlegsTest.html",
+          "hash": "W8AjInniCjrSloI86SoD/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Testing.ShearlegsTestParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Testing.ShearlegsTestParameters.html",
+          "hash": "E4zD2aPNVKCi9Guxuie2ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Testing.ShearlegsTestResults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Testing.ShearlegsTestResults.html",
+          "hash": "aYhD9qtSymkdlDGAPW19ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Shearlegs.Testing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Shearlegs.Testing.html",
+          "hash": "NgKacoj70BlceG07yehKOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "kWt9C/C8RwfxhYXwLWO1HA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "ies3yvhOq7OABY2VLLl1wQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/developers.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/developers.html",
+          "hash": "edP71s4Uu9PwwItRgPUE3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "lM+ev4fmb0Fc7+wcxmuMLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "wqv00NTMUuJHWi52X+11LQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/users.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/users.html",
+          "hash": "5N1NB84o8erb3EjLa/KnYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "CE40A1ePAa390oJCSp9mzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 67,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
