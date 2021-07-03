@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Shearlegs Plugin concepts </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Shearlegs Plugin concepts ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="shearlegs-plugin-concepts">Shearlegs Plugin concepts</h1>
+
+<h2 id="parameters">Parameters</h2>
+<h3 id="adding-parameters">Adding Parameters</h3>
+<p>To add a parameters for your Shearlegs plugin you have to create a new class and make it inherit from <code>Shearlegs.Core.Plugins.Parameters</code></p>
+<pre><code class="lang-cs">using Shearlegs.Core.Plugins;
+
+public class SampleParameters : Parameters 
+{
+
+}
+</code></pre>
+<p>You are allowed to have only one class in your project that inherits from <code>Shearlegs.Core.Plugins.Parameters</code>.<br>
+Now you can add a properties for it. Every property by default is a parameter without default value, it's not required and has no description.<br>
+To have a default value just assign the value for the property in the constructor</p>
+<pre><code class="lang-cs">public class SampleParameters : Parameters 
+{
+    public string Text { get; set; } = &quot;Hello World!&quot;;
+}
+</code></pre>
+<p>To add the description and make the parameter required use the <code>Shearlegs.API.Plugins.Attributes.ParameterAttribute</code> on the property</p>
+<pre><code class="lang-cs">public class SampleParameters : Parameters 
+{
+
+    public string Text { get; set; } = &quot;Hello World!&quot;;
+    [Parameter(IsRequired = true, Description = &quot;The date of your birthday&quot;)]
+    public DateTime Birthday { get; set; }
+}
+</code></pre>
+<h3 id="adding-secrets">Adding Secrets</h3>
+<p>To add secret simply add a parameter to your Parameters class and give it an attribute <code>Shearlegs.API.Plugins.Attributes.SecretAttribute</code></p>
+<pre><code class="lang-cs">public class SampleParameters : Parameters 
+{
+    [Secret]
+    public string ConnectionString { get; set; }
+}
+</code></pre>
+<p>Secrets cannot have a default value</p>
+<h3 id="reading-parameters--secrets">Reading Parameters &amp; Secrets</h3>
+<p>Shearlegs creates an instance of your Parameters type and adds it to the dependency injection, so you can easily access the your Parameters instance from plugin or service class.</p>
+<pre><code class="lang-cs">private readonly SampleParameters parameters;
+
+public SamplePlugin(SampleParameters parameters)
+{
+    this.parameters = parameters;
+}
+</code></pre>
+<h2 id="results">Results</h2>
+<h3 id="plugintextresult">PluginTextResult</h3>
+<h3 id="pluginerrorresult">PluginErrorResult</h3>
+<h2 id="services">Services</h2>
+<h2 id="contentfilestore">ContentFileStore</h2>
+<h3 id="adding-icontentfile">Adding IContentFile</h3>
+<p>To add file to IContentFileStore you have to add it to the project as EmbeddedResource.<br>
+It will add this file in the execution to the IContentFileStore, so you can read it.</p>
+<pre><code class="lang-xml">&lt;ItemGroup&gt;
+  &lt;EmbeddedResource Include=&quot;Template.xlsx&quot; /&gt;
+&lt;/ItemGroup&gt;
+</code></pre>
+<h3 id="reading-icontentfile">Reading IContentFile</h3>
+<p>To get IContentFile you first have to inject IContentFileStore to your plugin class or service</p>
+<pre><code class="lang-cs">private readonly IContentFileStore fileStore;
+
+public SamplePlugin(IContentFileStore fileStore)
+{
+    this.fileStore = fileStore;
+}
+</code></pre>
+<p>Then to get a file inside the method use <code>fileStore.GetFile(&quot;Template.xlsx&quot;)</code> (specify file name in the parameter)</p>
+<pre><code class="lang-cs">...
+IContentFile file = fileStore.GetFile(&quot;template.xlsx&quot;); // GetFile method is case insensitive
+using ExcelPackage pckg = new(file.Content); // Content property returns Stream
+...
+</code></pre>
+<p>Now you can access your embedded file Stream.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Shearlegs/Shearlegs/blob/master/docs/articles/developers/plugins.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

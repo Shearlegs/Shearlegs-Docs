@@ -845,6 +845,30 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/developers/plugins.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/developers/plugins.html",
+          "hash": "O+jwNWvlJs0LGHf3kv5luQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/developers/tutorial.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/developers/tutorial.html",
+          "hash": "06mV6XK4UZk6oUMhjxG2tA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/intro.md",
       "output": {
         ".html": {
@@ -861,7 +885,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "wqv00NTMUuJHWi52X+11LQ=="
+          "hash": "Q7SKj4j3W/F1LILjZqJo9g=="
         }
       },
       "is_incremental": false,
@@ -885,6 +909,17 @@
       "output": {
         "resource": {
           "relative_path": "favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/articles/developers/SearchTemplate.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/articles/developers/SearchTemplate.jpg"
         }
       },
       "is_incremental": false,
@@ -951,7 +986,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 5,
+          "total_file_count": 7,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
